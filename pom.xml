@@ -26,8 +26,8 @@
   </build>
     <distributionManagement>
   <repository>
-  <id>jenkinsPipeline</id>
-  <url>http://192.168.0.105:8081/repository/jenkinsPipeline/</url>
+  <id>pipeline</id>
+  <url>http://192.168.0.105:8081/repository/pipeline/</url>
   </repository>
     </distributionManagement>
 </project>
