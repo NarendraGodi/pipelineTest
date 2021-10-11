@@ -25,4 +25,4 @@ jobs:
       
       - name: Run a Maven step
         uses: actions/checkout@v2
-        run: mvn clean package
+        run: mvn -B package --file pom.xml
